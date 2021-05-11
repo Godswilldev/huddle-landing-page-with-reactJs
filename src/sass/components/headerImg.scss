@@ -1,0 +1,21 @@
+.header__Image {
+    width: 80rem;
+    @include respond(phone) {
+        width: 90%;
+    }
+    margin-top: 3rem;
+}
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    align-items: center;
+    margin-left: 5rem;
+
+    @include respond(phone) {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0 5rem;
+    }
+}

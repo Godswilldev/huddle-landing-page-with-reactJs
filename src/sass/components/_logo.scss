@@ -1,0 +1,7 @@
+.logo {
+    padding: 5rem;
+    @include respond(phone) {
+        padding: 3rem;
+        width: 2rem;
+    }
+}
