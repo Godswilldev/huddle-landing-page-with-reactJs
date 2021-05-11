@@ -1,7 +1,8 @@
 .logo {
     padding: 5rem;
-    @include respond(phone) {
-        padding: 3rem;
-        width: 2rem;
+    @include respond(tab-port) {
+        &__img {
+            width: 20rem;
+        }
     }
 }

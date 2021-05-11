@@ -6,7 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @include respond(phone) {
+    @include respond(tab-port) {
         background-image: url(../../images/bg-mobile.svg), linear-gradient(to right bottom, $Violet, $Violet);
         height: 100vh;
     }

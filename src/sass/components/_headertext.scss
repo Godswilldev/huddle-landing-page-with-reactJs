@@ -3,7 +3,7 @@
     &__text {
         margin-right: 5rem;
         margin-top: -10rem;
-        @include respond(phone) {
+        @include respond(tab-port) {
             margin: 0;
             text-align: center;
         }

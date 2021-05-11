@@ -23,4 +23,8 @@
 .social__icons {
     text-align: end;
     margin-right: 8rem;
+    @include respond(tab-port) {
+        text-align: center;
+        margin: 2rem 0;
+    }
 }
